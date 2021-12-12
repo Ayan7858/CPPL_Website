@@ -1,0 +1,70 @@
+<html>  
+    <head>   
+    <title>  
+    Registration Page  
+    </title>  
+    </head>  
+    <style>
+        body {
+          background-color: #faf2e4;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          width: 100%;
+          height: 100%;
+        }
+        h1 {
+      text-align: center;
+      font-family: serif;
+      font-weight: normal;
+      text-transform: uppercase;
+      border-bottom: 1px solid #57b1dc;
+      margin-top: 30px;
+    }
+    
+    h2 {
+      color: #d1633c;
+      font-size: 1em;
+    }
+    img{
+      padding-right: 250px;
+      padding-top: 100px;
+    }
+      </style>
+    <body> 
+    <br>  
+    <br> <div> 
+    <img align="right" padding="" src="11zon_cropped.png" width="250px" height="250px" alt="The Spago Restaurant"></div>
+    <form action="registration.php" method="post">  
+      
+    <label><h2>Firstname </h2></label>         
+    <input type="text" name="firstname" size="15"/> <br>   
+    <label><h2>Lastname: </h2></label>         
+    <input type="text" name="lastname" size="15"/> <br> 
+  
+      
+    <label> <h2>Phone: </h2>  
+     
+    </label>  
+    <input type="text" name="country code"  value="+91" size="2"/>   
+    <input type="text" name="phone" size="10"/> <br>  
+    <label><h2>Address:</h2>
+    </label>
+     
+    <textarea cols="80" rows="5" name="address">  
+    </textarea>  
+    <br>  
+    <label><h2> Email:</h2>
+     
+    </label>
+    <input type="email" id="email" name="email"> <br>    
+    <br> 
+    <label><h2>Password:</h2>
+      
+    </label>
+    <input type="Password" id="pass" name="pass"> <br>   
+    <br>    
+    <button style="background-color: #d1633c;" type="submit" name="save" class="btn btn-primary btn-block btn-large">Submit</button>
+    </form>  
+    </body>  
+    </html>  
